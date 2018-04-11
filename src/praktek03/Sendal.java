@@ -6,4 +6,15 @@ public class Sendal extends Sepatu{
     void throttlee(){
         System.out.println("Soll sepatuuuuuuuu");
     }
+
+    public String getJenisSendal() {
+        return jenisSendal;
+    }
+
+    public void setJenisSendal(String jenisSendal) {
+        this.jenisSendal = jenisSendal;
+    }
+    
+    
+    
 }
