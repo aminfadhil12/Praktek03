@@ -17,5 +17,13 @@ public class SepatuAksi {
         System.out.print("Harganya \t: ");
         System.out.println(s.getHarga());
         
+        Sendal sl= new Sendal();
+        sl.setMerk("ardiles");
+        sl.setWarna("hijau");
+        sl.setHarga(20000);
+        sl.setJenisSendal("gapit");
+        sl.cetakInfo();
+        System.out.println("Jenis \t:"+sl.getJenisSendal());
+        sl.throttlee();
     }
 }
